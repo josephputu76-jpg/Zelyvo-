@@ -1,4 +1,16 @@
 {
-  "expo":{"name":"ZELYVO","slug":"zelyvo","version":"0.1.0","orientation":"portrait","userInterfaceStyle":"dark",
-  "android":{"package":"com.zelyvo.app"},"ios":{"bundleIdentifier":"com.zelyvo.app"}}
+  "expo": {
+    "name": "ZELYVO",
+    "slug": "zelyvo",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "owner": "josephputu76s-team",
+    "android": {
+      "package": "com.zelyvo.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.zelyvo.app"
+    }
+  }
 }
