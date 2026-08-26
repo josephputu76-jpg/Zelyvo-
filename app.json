@@ -6,6 +6,11 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "owner": "josephputu76s-team",
+    "extra": {
+      "eas": {
+        "projectId": "0ad4b8cf-8702-4cba-bc64-cb9054d3f1e2"
+      }
+    },
     "android": {
       "package": "com.zelyvo.app"
     },
