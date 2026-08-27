@@ -1,3 +1,4 @@
+
 name: Zelyvo Android Build
 
 on:
@@ -23,6 +24,6 @@ jobs:
         run: npm install -g eas-cli
 
       - name: Lancer le build Android
-        run: eas build --platform android --profile development --non-interactive
+        run: eas build --platform android --profile preview --non-interactive
         env:
           EXPO_TOKEN: ${{ secrets.EXPO_TOKEN }}
