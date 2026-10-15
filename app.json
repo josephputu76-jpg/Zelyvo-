@@ -5,6 +5,7 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
     "owner": "josephputu76s-team",
     "extra": {
       "eas": {
@@ -12,7 +13,12 @@
       }
     },
     "android": {
-      "package": "com.zelyvo.app"
+      "package": "com.zelyvo.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundImage": "./assets/adaptive-icon-background.png",
+        "monochromeImage": "./assets/adaptive-icon-monochrome.png"
+      }
     },
     "ios": {
       "bundleIdentifier": "com.zelyvo.app"
